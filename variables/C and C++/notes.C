@@ -1,6 +1,15 @@
 #include <stdio.h>
 
 int main (void){
-    printf("Hello World");
+   
+   
+   char name[30];
+
+   printf("type your name and press enter: ");
+
+   scanf("%s", name);
+   
+    printf("Hello World! I am: %s", name);
+
     return 0;
 }

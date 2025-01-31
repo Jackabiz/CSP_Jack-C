@@ -1,4 +1,4 @@
-# Jackson Clark, variable practice
+# Jackson Clark, variable practice python
 
 username = input("what is your name?")
 

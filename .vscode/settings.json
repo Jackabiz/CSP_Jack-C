@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "template.C": "cpp",
-        "notes.C": "cpp"
+        "notes.C": "cpp",
+        "practice.C": "cpp"
     }
 }
