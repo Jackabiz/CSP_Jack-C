@@ -19,3 +19,5 @@ yr = input("what year is it?")
 age = input("how old are you?")
 
 favsub = input("what is your favorite academic subject?")
+
+print(username, schoolname, smallnum, bignum, breakfast, C, eyeC, yr, age, favsub)
