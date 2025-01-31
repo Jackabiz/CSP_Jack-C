@@ -14,13 +14,13 @@ printf("What school do you go to?:");
 
 scanf("%s", schoolname);
 
-int smallnum[3];
+float smallnum[30];
 
 printf("Name a number between 1 and 100:");
 
 scanf("%s", smallnum);
 
-int bignum[4];
+float bignum[30];
 
 printf("Name a number between 100 and 1000:");
 
@@ -62,7 +62,7 @@ printf("what is your favorite academic subject?:");
 
 scanf("%s", favsub);
 
-printf("%s" username, "%s" schoolname, smallnum, bignum, breakfast, C, eyeC, yr, age, favsub);
+printf("%s" username, "%s" schoolname, "%f" smallnum, "%f" bignum, "%s" breakfast, "%s" C, "%s" eyeC, "%d" yr, "%d" age, "%s" favsub);
 
 return 0;
 }
