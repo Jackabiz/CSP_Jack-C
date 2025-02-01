@@ -62,7 +62,7 @@ printf("what is your favorite academic subject?:");
 
 scanf("%s", favsub);
 
-printf("%s" username, "%s" schoolname, "%f" smallnum, "%f" bignum, "%s" breakfast, "%s" C, "%s" eyeC, "%d" yr, "%d" age, "%s" favsub);
+printf("%s", username, "%s", schoolname, "%f", smallnum, "%f", bignum, "%s", breakfast, "%s", C, "%s", eyeC, "%d", yr, "%d", age, "%s", favsub);
 
 return 0;
 }
