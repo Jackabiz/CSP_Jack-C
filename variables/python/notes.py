@@ -1,11 +1,9 @@
 #  Jack Clark, Variable notes
 
-greeting = "hey, you!"
+print("hey, you!") 
 
-print(greeting) 
+name = input("what is your name? ")
 
-greeting = input("what is your name? ")
-
-print("hello",greeting,"!","I'm bartholemul! Do you know why we're in a basement?")\
+print("hello",name,"!","I'm bartholemul! Do you know why we're in a basement?")
 
 input("yes" or "no")
