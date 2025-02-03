@@ -2,6 +2,9 @@
     "files.associations": {
         "template.C": "cpp",
         "notes.C": "cpp",
-        "practice.C": "cpp"
+        "practice.C": "cpp",
+        "My first program.C": "cpp",
+        "Expression.C": "cpp",
+        "Expressions.C": "cpp"
     }
 }
