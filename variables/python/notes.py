@@ -1,11 +1,16 @@
 #  Jack Clark, Variable notes
 
-greeting = "hey, you!"
+print("hey, you!") 
 
-print(greeting) 
+name = input("what is your name? ")
 
-greeting = input("what is your name? ")
+print(f"hello {name}!","I'm bartholemul! Do you know why we're in a basement?")
 
-print("hello",greeting,"!","I'm bartholemul! Do you know why we're in a basement?")\
+response = input("(yes or no)")
 
-input("yes" or "no")
+positive = "yes" or "Yes"
+
+if response==positive:
+ print("oh, that's amazing!")
+else:
+ print("why are you even here then?")
