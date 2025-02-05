@@ -7,7 +7,7 @@ int main (void){
    
    char name[30];
 
-   printf("type your name and press enter: ");
+   printf("type its and press enter: ");
 
    scanf("%s", name);
    

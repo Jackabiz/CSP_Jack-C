@@ -1,13 +1,10 @@
 #  Jack Clark, Variable notes
 
-playing = true
+playing = "true"
 
-while playing = true:
-
-
-print("'hey, you!'")
-
-
+while playing=="true":
+  print("'hey, you!'")
+  
 name = input("'what is your name?' ")
 
 print(f"'hello {name}!","I'm bartholemul! Do you know why we're in a basement?'")
@@ -24,4 +21,6 @@ else:
  print("'you must be one of my captors! die!' \n \n you are dead")
  deathscreen = input("try again? (yes or no)")
  if deathscreen==negative:
-    playing = false 
+    playing = "false"
+
+
