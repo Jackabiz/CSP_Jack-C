@@ -1,68 +1,70 @@
+// Jackson Clark, Practice C
+
 #include <stdio.h>
 
 int main(void){
 
 char username[30];
 
-printf("What is your name?:");
+printf("What is your name?: \n");
 
 scanf("%s", username);
 
 char schoolname[30];
 
-printf("What school do you go to?:");
+printf("What school do you go to?: \n");
 
 scanf("%s", schoolname);
 
-float smallnum[30];
+int smallnum;
 
-printf("Name a number between 1 and 100:");
+printf("Name a number between 1 and 100: \n");
 
-scanf("%s", smallnum);
+scanf("%d", &smallnum);
 
-float bignum[30];
+int bignum;
 
-printf("Name a number between 100 and 1000:");
+printf("Name a number between 100 and 1000: \n");
 
-scanf("%s", bignum);
+scanf("%d", &bignum);
 
 char breakfast[30];
 
-printf("What did you have for breakfast today?:");
+printf("What did you have for breakfast today?: \n");
 
 scanf("%s", breakfast);
 
-char C[30];
+char Col[30];
 
-printf("What is your favorite color?:");
+printf("What is your favorite color?: \n");
 
-scanf("%s", C);
+scanf("%s", Col);
 
-char eyeC[30];
+char eyeCol[30];
 
-printf("What is your eye color?:");
+printf("What is your eye color?: \n");
 
-scanf("%s", eyeC);
+scanf("%s", eyeCol);
 
-int yr[30];
+int yr;
 
-printf("What year is it?:");
+printf("What year is it?: \n");
 
-scanf("%s", yr);
+scanf("%d", &yr);
 
-int age[30];
+int age;
 
-printf("How old are you?:");
+printf("How old are you?: \n");
 
-scanf("%s", age);
+scanf("%d", &age);
 
 char favsub[30];
 
-printf("what is your favorite academic subject?:");
+printf("what is your favorite academic subject?: \n");
 
 scanf("%s", favsub);
 
-printf("%s", username, "%s", schoolname, "%f", smallnum, "%f", bignum, "%s", breakfast, "%s", C, "%s", eyeC, "%d", yr, "%d", age, "%s", favsub);
+printf("%s, %s, %d, %d, %s, %s, %s, %d, %d, %s", username, schoolname, smallnum, bignum, breakfast, Col, eyeCol, yr, age, favsub);
 
 return 0;
 }
