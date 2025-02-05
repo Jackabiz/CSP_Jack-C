@@ -1,5 +1,7 @@
 #  Jack Clark, Variable notes
 
+
+
 print("'hey, you!'") 
 
 name = input("'what is your name?' ")
