@@ -11,8 +11,8 @@ response = input("(yes or no)")
 positive = "yes" or "Yes"
 
 if response==positive:
- print("'oh, that's amazing!'")
+ print("'well, I suppose that makes sense... let's see if we can get out of here, shall we?'")
 else:
- print("'you're no use to be then.' \n you are dead")
+ print("'you must be one of my captors! die!' \n \n you are dead")
  deathscreen = input("try again? (yes or no)")
- 
+ if deathscreen
