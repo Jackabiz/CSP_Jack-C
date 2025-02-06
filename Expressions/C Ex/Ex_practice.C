@@ -9,11 +9,11 @@ int eq_three = 6*4/12+72/8-9;
 int eq_four = (17-6/2)+4*3;
 int eq_five = -2*(1*4-2/2)+(6+2-3);
 int eq_six = -1*((3-4*7)/5)-2*24/6;
-int eq_seven= (3*5**2/15)-(5-2**2);
-int eq_eight= (1**4*2**2+3**3)-2**5/4;
-int eq_nine= (22/2-2*5)**2+(4-6/6)**2;
+int eq_seven= (3*(int)pow(5,2)/15)-(5-(int)pow(2,2));
+int eq_eight= ((int)pow(1,4)*(int)pow(2,2)+(int)pow(3,3))-(int)pow(2,5)/4;
+int eq_nine= (int)pow((22/2-2*5),2)+(int)pow((4-6/6),2);
 
-printf()
+printf("%d,%d,%d,%d,%d,%d,%d,%d,%d,", eq_one, eq_two, eq_three, eq_four, eq_five, eq_six, eq_seven, eq_eight, eq_nine);
 
     return 0;
 }
