@@ -1,4 +1,4 @@
-// First program C
+// Jackson Clark, First program C
 
 #include <stdio.h>
 
