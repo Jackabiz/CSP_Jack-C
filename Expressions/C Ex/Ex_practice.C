@@ -1,3 +1,5 @@
+// Jackson Clark, Expressions Practice C
+
 #include <stdio.h>
 #include <math.h>
 

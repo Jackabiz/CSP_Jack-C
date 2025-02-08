@@ -1,4 +1,4 @@
-# 
+# Jackson Clark, Expressions practice python
 
 
 eq_one = 7-24/8*4+6
