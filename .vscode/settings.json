@@ -12,6 +12,8 @@
         "Ex_notes.C": "cpp",
         "Ex_practice.C": "cpp",
         "Financial_Calculator.C": "cpp",
-        "Budget.C": "cpp"
+        "Budget.C": "cpp",
+        "Str_notes.C": "cpp",
+        "name_decorator.C": "cpp"
     }
 }
