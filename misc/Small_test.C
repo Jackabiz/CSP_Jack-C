@@ -3,10 +3,13 @@
 
 int main(void){
 
-    int e;
+    int num_ints = 3;
 
-    for (e = 1; e <= 10;e++){
-        printf("%d\n", e);
+    int rand_value1 = rand() % (num_ints+1);
+    int rand_value2 = rand() % (num_ints+1);
+    while (rand_value1 = rand_value2){
+     int rand_value2 = rand() % (num_ints+1);
     }
+    
     return 0;
 }

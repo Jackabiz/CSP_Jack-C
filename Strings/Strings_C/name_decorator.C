@@ -10,6 +10,5 @@ int main (void){
     strcat(name1, name);
     strcat(name1, decor1_b);
     printf("%s", name1);
-
     return 0;
 }
