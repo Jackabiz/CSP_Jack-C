@@ -3,7 +3,7 @@
 def hello(name):
     print(f"hello {name}")
 def name_in():
-    return input("what is your name?\n")
+    return input("what is your name? (please input a new name each time you are asked)\n")
 name1 = name_in()
 name2 = name_in()
 name3 = name_in()
