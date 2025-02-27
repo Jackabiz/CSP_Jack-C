@@ -3,13 +3,11 @@
 
 int main(void){
 
-    int num_ints = 3;
+int age[30];
+printf("How old are you?");
+scanf("%d", age);
+if (age>=18)
 
-    int rand_value1 = rand() % (num_ints+1);
-    int rand_value2 = rand() % (num_ints+1);
-    while (rand_value1 = rand_value2){
-     int rand_value2 = rand() % (num_ints+1);
-    }
-    
-    return 0;
+if (age
+
 }
