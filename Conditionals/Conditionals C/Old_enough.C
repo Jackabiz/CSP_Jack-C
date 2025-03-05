@@ -12,18 +12,18 @@ int main(void){
         printf("you can go to school, drive, and even vote!");
     
 
-    if (age >= 16 && age < 18)
+    else if (age >= 16 && age < 18)
         printf("you can go to school and drive!");
 
 
-    if (age >= 15.5 && age < 16)
+    else if (age >= 15.5 && age < 16)
         printf("you can go to school and get your learner's permit!");
     
 
-    if (age >= 5 && age < 15.5)
+    else if (age >= 5 && age < 15.5)
         printf("you can go to school!");
     
-    else if (age < 5)
+    else
       printf("how are you even using this program?");
     
     return 0;
