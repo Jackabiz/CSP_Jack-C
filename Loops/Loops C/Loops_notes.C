@@ -11,6 +11,8 @@ int main (void){
         //Gives the space that the list takes up in bytes (in this case 20, as each # takes up 4 bytes)
     int length = sizeof(grades)/sizeof(grades[0]);
         //times 4 and divides by 4 to give the amount of items in the list
+    int x;
+    for (x=0;x>10;x+=2);
     return 0;
 }
 //What is a loop?
@@ -35,7 +37,7 @@ int main (void){
     //while var1==var2:
 //How do you make lists in C?
 //How do you make for loops in C?
-    //for (int i = 0; i < 10; i++){}
+    //(example) for (int i = 0; i < 10; i++){}
 //How do you make while loops in C?
     //while(var1=var2){}
 
