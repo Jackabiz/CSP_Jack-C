@@ -14,7 +14,7 @@ transportation = input("how much money do you spend on transportation each month
 
 expenses = int(rent)+int(utilities)+int(groceries)+int(transportation)
 
-savings = int(income)*int(0.2)
+savings = int(income)*.2
 
 total = int(income)-float(savings)-int(expenses)
 
@@ -56,4 +56,4 @@ print(f"your groceries are {pgroceries}% of your income \n")
 
 print(f"your transportation is  {ptransportation}% of your income \n")
 
-print(f"you put {savings}% of your income into savings each month")
+print(f"you put {psavings}% of your income into savings each month")
