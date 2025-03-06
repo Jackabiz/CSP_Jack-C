@@ -25,6 +25,7 @@
         "Financial_Calculator_2.C": "cpp",
         "Old_enough.C": "cpp",
         "Loops_notes.C": "cpp",
-        "Time_of_day.C": "cpp"
+        "Time_of_day.C": "cpp",
+        "Storage.C": "cpp"
     }
 }
