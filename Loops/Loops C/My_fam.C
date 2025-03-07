@@ -1,5 +1,17 @@
 // Jackson Clark, My Family Loop C
 
-char* Family[] = {"Mom", "Dad", "sister"};
+#include <stdio.h>
 
-for(x=0;x<3;x++)
+int main (void){
+
+    char* Family[] = {"Mom", "Dad", "sister"};
+
+    for(int x=0;x<3;x++){
+        printf("Hello %s \n", Family[x]);
+    }
+
+    return 0;
+}
+
+
+

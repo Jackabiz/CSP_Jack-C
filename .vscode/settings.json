@@ -27,6 +27,7 @@
         "Loops_notes.C": "cpp",
         "Time_of_day.C": "cpp",
         "Storage.C": "cpp",
-        "My_fam.C": "cpp"
+        "My_fam.C": "cpp",
+        "Fizzbuzz.C": "cpp"
     }
 }
