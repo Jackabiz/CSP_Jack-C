@@ -23,7 +23,7 @@ print (add(3, 132))
 def values(type):
     return input(f"please give me a {type}\n")
     #this can be used to repeat things values("name")
-name = values("place")
+name = values("name")
 adjective = values("adjective")
 place = values("place")
 print(f"{name} was really {adjective} and went to {place}")
