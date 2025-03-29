@@ -1,7 +1,7 @@
 // Jackson Clark, Financial Calculator 2 C
 #include <stdio.h>
 
-float user_in(char spend[30]){
+float user_in(char spend[]){
     float user_in_2;
     printf("how much money do %s each month?\n", spend);
     scanf("%f", &user_in_2);
@@ -13,16 +13,11 @@ int Perc(float var1, float income){
 int main(void){
     float savings, expenses, total;
     float prent, putilities, pgroceries, ptransportation, psavings, pexpenses;
-    char inc[] = "you make";
-    char re[] = "you spend on rent";
-    char uti[] = "you spend on utilites";
-    char groc[] = "you spend on groceries";
-    char trans[] = "you spend on transportation";
-    float income = user_in(inc);
-    float rent = user_in(re);
-    float utilities = user_in(uti);
-    float groceries = user_in(groc);
-    float transportation = user_in(trans);
+    float income = user_in("you make");
+    float rent = user_in("you spend on rent");
+    float utilities = user_in("you spend on utilites");
+    float groceries = user_in("you spend on groceries");
+    float transportation = user_in("you spend on transportation");
     expenses = rent + utilities + groceries + transportation;
     savings = income * .2;
     total = income - savings - expenses;

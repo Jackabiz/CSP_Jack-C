@@ -36,6 +36,7 @@ int main (void){
 //How do you make while loops in python?
     //while var1==var2:
 //How do you make lists in C?
+    //ind var = {listvar1, listvar2, etc.}
 //How do you make for loops in C?
     //(example) for (int i = 0; i < 10; i++){}
 //How do you make while loops in C?
